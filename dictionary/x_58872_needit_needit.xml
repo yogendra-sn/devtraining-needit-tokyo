@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="1a56f51c47bb1110f7988977536d43ef" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
         <element label="New field 2" max_length="40" name="new_field_2" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Other" mandatory="true" max_length="40" name="u_other" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Other" mandatory="true" max_length="40" name="u_other" type="string">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Other2" max_length="255" name="u_other2" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Other 3" mandatory="true" max_length="40" name="u_other3" type="string"/>
         <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
@@ -25,6 +28,8 @@
                 <element inactive_on_update="false" label="Legal 2" sequence="5" value="legal 2"/>
                 <element inactive_on_update="false" label="Your Department Choice 1" sequence="6" value="your_choice1"/>
                 <element inactive_on_update="false" label="Your Department Choice 2" sequence="7" value="your_choice2"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
+                <element inactive_on_update="false" label="other3" sequence="9" value="other3"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="When Needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
