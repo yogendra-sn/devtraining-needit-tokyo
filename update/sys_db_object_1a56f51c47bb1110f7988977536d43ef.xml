@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
     <sys_db_object action="INSERT_OR_UPDATE">
-        <access>public</access>
+        <access>package_private</access>
         <actions_access>false</actions_access>
         <alter_access>false</alter_access>
-        <caller_access/>
+        <caller_access>1</caller_access>
         <client_scripts_access>false</client_scripts_access>
         <configuration_access>false</configuration_access>
         <create_access>false</create_access>
@@ -15,7 +15,7 @@
         <name>x_58872_needit_needit</name>
         <number_ref display_value="NI">73c6bd1c47bb1110f7988977536d43c5</number_ref>
         <provider_class/>
-        <read_access>true</read_access>
+        <read_access>false</read_access>
         <scriptable_table>false</scriptable_table>
         <super_class display_value="Task" name="task">2e7056e4f90211108c8bd16244dfe707</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
@@ -29,6 +29,6 @@
         <sys_update_name>sys_db_object_1a56f51c47bb1110f7988977536d43ef</sys_update_name>
         <update_access>false</update_access>
         <user_role display_value="x_58872_needit.needit_user" name="x_58872_needit.needit_user">5fc6b11c47bb1110f7988977536d43c7</user_role>
-        <ws_access>true</ws_access>
+        <ws_access>false</ws_access>
     </sys_db_object>
 </record_update>
