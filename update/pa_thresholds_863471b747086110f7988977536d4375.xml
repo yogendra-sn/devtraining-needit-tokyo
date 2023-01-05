@@ -11,7 +11,7 @@
         <element/>
         <element_level2/>
         <indicator display_value="NeedIt: Due Monthly">1a04a13b47c46110f7988977536d439d</indicator>
-        <last_check/>
+        <last_check>20230101</last_check>
         <owner/>
         <sys_class_name>pa_thresholds</sys_class_name>
         <sys_created_by>admin</sys_created_by>
